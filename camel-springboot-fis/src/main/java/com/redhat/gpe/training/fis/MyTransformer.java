@@ -17,12 +17,14 @@
 package com.redhat.gpe.training.fis;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 
 /**
  * A sample transform
  */
 @Component(value = "myTransformer")
+@Configuration
 public class MyTransformer {
 
 	// inject via application.properties

@@ -3,4 +3,4 @@ apiVersion: v1
 metadata:
   name: fis-springboot-app-config
 data:
-  app.hello.message=Welcome to FIS 2.0 Labs from ConfigMap
+  app.hello.message: Welcome to FIS 2.0 Labs from ConfigMap

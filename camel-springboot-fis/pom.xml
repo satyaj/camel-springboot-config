@@ -54,6 +54,11 @@
       <artifactId>spring-boot-starter-actuator</artifactId>
     </dependency>
 
+        <dependency>
+      <groupId>io.fabric8</groupId>
+      <artifactId>spring-cloud-kubernetes-core</artifactId>
+    </dependency>
+
     <!-- testing -->
     <dependency>
       <groupId>junit</groupId>
